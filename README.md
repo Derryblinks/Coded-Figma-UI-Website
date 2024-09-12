@@ -1,3 +1,4 @@
+
 # My Website
 
 THIS WEBSITE IS ONLY A FRONTEND PROJECT WITH NO BACKEND
@@ -59,7 +60,7 @@ Contributions are welcome! To contribute:
 
 ## Screenshots
 <video width="600" controls>
-  <source src="C:\Users\dboateng089\Downloads\REACT TUTORIALS\ReactTrials\my-app\src\assets\Screenshots\Macbook-Air-localhost-m9nmM3Unjm.webm" type="video/webm">
+  <source src="" type="video/webm">
   Your browser does not support the video tag.
 </video>
 [text](src/assets/Screenshots/Macbook-Air-localhost-m9nmM3Unjm.webm)
