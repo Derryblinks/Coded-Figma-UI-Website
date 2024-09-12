@@ -59,11 +59,6 @@ Contributions are welcome! To contribute:
 
 
 ## Screenshots
-<video width="600" controls>
-  <source src="" type="video/webm">
-  Your browser does not support the video tag.
-</video>
-[text](src/assets/Screenshots/Macbook-Air-localhost-m9nmM3Unjm.webm)
 ![alt text](<src/assets/Screenshots/Macbook-Air-localhost (1).png>)
 ![alt text](<src/assets/Screenshots/Macbook-Air-localhost (2).png>)
 ![alt text](<src/assets/Screenshots/Macbook-Air-localhost (3).png>)
