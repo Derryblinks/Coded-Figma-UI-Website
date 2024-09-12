@@ -1,13 +1,669 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  margin: 0 ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding:0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* index.css */
+.header-stretch{
+  /* background-color: #f8f9fa; */
+  background-color: transparent;
+    width:100%;
+    
+}
+.header {
+  /* background-color: #f8f9fa; */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  max-width:1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 50px;
+  
+}
+
+.header nav ul a{
+  list-style: none;
+  padding: 0;
+  font-size: 24px;
+  font-weight: medium;
+  text-decoration: none;
+}
+.header nav ul a:hover{
+  font-weight: medium;
+  text-decoration: underline black;
+  transition: 5s;
+
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.btn{
+  background-color:rgb(17, 148, 57);
+  border-radius: 10px;
+  padding: 10px;
+  border-style: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin:10px;
+  font-family: 'poppins';
+  font-weight: 600;
+}
+
+.btn:hover{
+  background-color: rgb(152, 184, 228);
+}
+
+.btn:active{
+background-color: rgb(55, 93, 147);
+opacity:0.5;
+}
+
+.logo{
+  width: 20px;
+  align-items: center;
+  padding-left:10px;
+}
+
+.landing-page{
+  background-color:#F5F7FA;
+}
+
+.hero{
+  margin-top: 0.5%;
+  margin-bottom: -3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  height: 600px;
+}
+
+.hero-text h1{
+  font-size: 72px;
+  font-weight: 600;
+  color: rgb(35, 33, 33);
+  font-family: 'iter';
+  flex-wrap: wrap;
+  margin-bottom: -10px;
+
+}
+.sub-text{
+  font-size: 72px;
+  font-weight: 600;
+  color:rgb(17, 148, 57);
+  font-family: 'poppins';
+}
+.hero-text p{
+  font-size: 20px;
+  font-weight: 50px;
+  color: rgb(35, 33, 33);
+  font-family: 'poppins';
+  flex-wrap: wrap;
+
+}
+
+  
+.illustrationImage{
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Dots{
+  display: flex;
+  margin:10px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.Our-Clients{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+  } 
+
+  .client-Info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    margin-bottom: 50px;
+  }
+  .client-Info h1{
+   font-size: 64px;
+   font-weight: 600;
+   color: rgb(35, 33, 33);
+  }
+
+  .client-Info p{
+    font-size: 20px;
+    font-weight: 50px;
+   color: rgb(35, 33, 33);
+  }
+
+  .clients{
+    display: flex;
+    flex-direction: row;    
+  }
+
+.client{
+  padding-top:0;
+  padding-bottom: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  object-fit: cover;
+  width: 15px;
+}
+
+/* .Manage{
+  padding-top:20;
+  display: flex;
+  flex-direction: row;
+} */
+
+.community-management-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 3%;
+}
+
+.subheading {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #333;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.allInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8%;
+  align-content: center;
+  text-align: center;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
+
+.info h1{
+  font-size: 50px;
+}
+
+.rafiki-image{
+  width: 150%;
+  height: 150%;
+}
+
+.local-info{
+  background-color: #F5F7FA;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: -10px;
+
+}
+
+.membership{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 20px;
+  
+}
+.numbers{
+  display: block;
+  align-items: center;
+  padding:0;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.numbers p{
+  margin-top: -50px;
+}
+
+.membership-icon{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30xp;
+
+}
+
+#span-text{
+  color:#4CAF4F;
+}
+
+.grid-items{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.illustrationInfo{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  
+}
+.illustration-image{
+  width: 150%;
+  height: 100%;
+}
+
+/* 
+.PanaInfo{
+  display: flex;
+  width: 15px;
+  margin-left: -100px;
+
+} */
+
+/* the following style is for TimsmithPage*/
+
+.clients-for-Tim{
+  display: flex;
+  flex-direction: row;    
+}
+
+.client-for-Tim{
+  padding-top:0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 60px;
+  align-items: center;
+  object-fit: cover;
+  width: 15px;
+}
+
+.card-info{
+  /* max-width: 500vh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-top: 3%;
+  /* width: 100%; */
+}
+
+.squarecard-info{
+  background-color:#F5F7FA;
+  /* opacity: 1; */
+  padding: 1px;
+  color: rgb(21, 220, 57);
+  position: relative;
+  bottom: 90px;
+  border-radius: 10px;
+  margin-left: 15%;
+  width: 120%;
+  box-shadow: 1px 3px 50px 0.1px rgb(195, 195, 195);
+
+}
+
+.squarecard-info p{
+  color: black;
+
+  }
+
+  .square-image{
+    width: 150%;
+    height: 150%;
+  }
+
+  .all-square-info{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 3%;
+    margin-right: 100px;
+  }
+
+  .Rightarrow{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -8px;
+  }
+
+  .footerInfo{
+    background-color:#F5F7FA;
+    margin-top: 3%;
+   flex-direction: column;
+   text-align: center;
+   padding: 20px;
+  }
+
+  .rightArrow{
+   padding: 4px;
+   width: 15px;
+   height: 10px;
+   margin-left: 5px;
+  }
+
+
+  /*Main footer info*/
+
+  .Mainfooter-Info{
+    background-color: #263238;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .socialIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Media-Icon{
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  .copy-right{
+    color: white;
+    font-family: "Poppins";
+  }
+
+  .Mainfooter-Info h3{
+    color: white;
+  }
+
+  .Main-footer-Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    }
+
+    .email-input {
+      width: 100%;
+      padding: 10px 40px 10px 10px; 
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+      box-sizing: border-box; 
+  }
+
+  .email-input::placeholder {
+    color: #aaa; /* Placeholder color */
+}
+
+
+
+/*the following is for the News letter*/
+
+
+.email-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #2c2f33; /* Adjust this color as needed */
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 300px;
+}
+
+
+
+.send-button {
+  background: none;
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-left: -20%;
+}
+
+.send-button img {
+  width: 20px; 
+  height: auto;
+  filter: invert(1); /* this line of style code Makes the icon white if it's black, and black if it's white
+   in this case the send icon is white so this style will turn it into black */
+}
+
+
+.footer-headings ul{
+  list-style: none;
+}
+.footer-headings ul a{
+text-decoration: none;
+color:white;
+align-items: center;
+align-content: center;
+margin-left: -30%;
+}
+
+.footer-headings ul a:hover{
+  transition: 0.3s;
+  text-decoration: underline;
+
+}
+
+
+
+/* the following line of code is for responsiveness*/ /*----------------------------------------------------------------*/
+
+@media screen and (max-width: 500px){
+
+  .landing-page{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 150%;
+    background-color: transparent;
+  }
+  .hero{
+    justify-content: space-evenly;
+    padding: 10%;
+  }
+  .illustration-image{
+    width: 10%;
+    height: 10%;
+
+  }
+
+  .hero-text{
+    font-size: 40px;
+  }
+  .sub-text{
+    font-size: 40px;
+  }
+
+
+  /* the following lines of code is for Our clients*/
+  .Our-Clients{
+    text-align: center;
+    word-wrap: break-word;
+
+  }
+  .Our-Clients h1{
+    font-size: 40px;
+    align-items: center;
+    align-content: center;
+  }
+  .client{
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    object-fit: cover;
+    width: 5px;
+  }
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*the following line of code is for the middleInfo*/
+
+  .allInfo{
+    flex-direction: column;
+    padding: 10%;
+  }
+
+  .info h1{
+    font-size: 4em;
+  }
+  .grid-items{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .illustrationInfo{
+    padding: 10%;
+    text-align: center;
+  }
+
+  .client-for-Tim{
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/* the follwoing line of code is for the screen size of 1200*/
+@media screen and (max-width: 1200px){
+  .info{
+    padding-left: 50px;
+  }  
+
+  .local-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .illustrationInfo{
+    padding: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .client-for-Tim{
+    display:none;
+  }
+
+  .card-info{
+    padding: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+.all-square-info{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.Main-footer-Info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  align-content: center;
+ 
+}
+
+}
+
+@media screen and (max-width: 500px) {
+  .footerInfo {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .Mainfooter-Info {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .socialIcons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Media-Icon {
+    padding: 10px;
+  }
+  .copy-right {
+    text-align: center;
+  }
+  .email-input {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+
+
